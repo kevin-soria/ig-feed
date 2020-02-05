@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/a6b72e87e7.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Molle:400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+   <!--navbar-->
+            <nav class="navbar fixed-top navbar-light bg-light pb-0">
+        <a class="navbar-brand" href="#"><i class="fa-2x fab fa-instagram fonticn">instagram</i></a>
+         <form class="form-inline">
+   <!--modal button-->
+    <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#exampleModal">Create a New Post</button>          
+  <!--^modal button^-->
+  <!-- drop down button -->
+                <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle mr-5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-cog"></i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right mr-5">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+                </div>
+<!--^drop down button^-->
+
+  </form>
+</nav>
+ 
+  <!--^navbar^-->
+    <ul class="nav nav-pills center-pills" id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-2x far fa-image"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa-2x far fa-images"></i></a>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+  
+    <!--grids-->
+                            <div class="card-group">
+                        <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Icecat1-300x300.svg" class="card-img-top"alt="..." width="100%" height="100%" >
+
+                        </div>
+                        <div class="card">
+                            <img src="https://dogtowndogtraining.com/wp-content/uploads/2012/06/300x300-061-e1340955308953.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="https://vignette1.wikia.nocookie.net/logopedia/images/a/a4/Google-Currents-Featured-300x300.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card-group">
+                        <div class="card">
+                            <img src="https://aishfl.com/wp-content/uploads/2019/01/thank-you-300x300.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="https://i.pinimg.com/originals/f9/d3/4b/f9d34b1abae1da85ab300302e75d73f3.gif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="https://store-images.s-microsoft.com/image/apps.46943.9007199266245148.65716085-8f7e-40af-9dd6-34b7bc30c6dd.af0b8fbf-5d63-4c74-97a9-31eefb48822b?mode=scale&q=90&h=300&w=300" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card-group">
+                        <div class="card">
+                            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+
+                        </div>
+                        <div class="card">
+                            <img src="https://www.iso.org/files/live/sites/isoorg/files/news/News_archive/2017/08/Ref2213/Ref2213.jpg/thumbnails/300x300" class="card-img-top" alt="...">
+
+                        </div>
+                        <div class="card">
+                            <img src="https://static3.grsites.com/archive/textures/misc/misc285.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            
+                            </div>
+                        </div>
+                        </div>
+
+
+</i></div>
+
+
+
+<div class="tab-pane fade mt-3" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+<div class="card" style="width: 18rem;">
+<div class="card-header">My first instagram pictures!</div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Icecat1-300x300.svg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"><b>5 likes</b></p>
+    <p> This picture is beautiful! </p>
+    <p> <i class="far fa-heart"></i> Comment... <i class="fas fa-ellipsis-v icon"></i> </p>
+  </div>
+</div>
+
+
+<div class="card" style="width: 18rem;">
+<div class="card-header">My first instagram pictures!</div>
+  <img src="https://i.pinimg.com/originals/f9/d3/4b/f9d34b1abae1da85ab300302e75d73f3.gif" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"><b>5 likes</b></p>
+    <p> This picture is beautiful! </p>
+    <p> <i class="far fa-heart"></i> Comment... <i class="fas fa-ellipsis-v icon"></i> </p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+<div class="card-header">My first instagram pictures!</div>
+  <img src="https://static3.grsites.com/archive/textures/misc/misc285.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"><b>5 likes</b></p>
+    <p> This picture is beautiful! </p>
+    <p> <i class="far fa-heart"></i> Comment... <i class="fas fa-ellipsis-v icon"></i> </p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+<div class="card-header">My first instagram pictures!</div>
+  <img src="https://aishfl.com/wp-content/uploads/2019/01/thank-you-300x300.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"><b>5 likes</b></p>
+    <p> This picture is beautiful! </p>
+    <p> <i class="far fa-heart"></i> Comment... <i class="fas fa-ellipsis-v icon"></i> </p>
+  </div>
+</div>
+m
+
+
+
+
+</i></div>
+</div>
+
+
+
+
+<!--^grids^-->
+
+ <!--modal button-->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                         <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter post title">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your post with anyone else.</small>
+                            </div>
+                         </form>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <button type="button" class="btn btn-light btn-sm"><i class="fas fa-user-tag"></i></button>
+                                <button type="button" class="btn btn-light btn-sm"><i class="fas fa-map-pin"></i></button>
+                                
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-success">Publish</button>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+  <!--^modal button^-->
+    
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

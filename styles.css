@@ -1,0 +1,36 @@
+body {
+    margin-top: 60px;
+    background-color: lightgrey
+}
+.card {
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 20px; 
+
+}
+.nav-pills {
+    background-color: white;
+    
+}
+.nav-pills a:hover {
+    background-color: rgb(40, 180, 226);
+}
+
+.icon{
+    float: right;
+    
+}
+.card-body{
+    padding: 1%;
+    margin: 1%;
+}
+.fontion{
+   font-family: 'Molle', cursive;
+   
+
+}
+
+     .center-pills {
+    display: flex;
+    justify-content: center;
+}
